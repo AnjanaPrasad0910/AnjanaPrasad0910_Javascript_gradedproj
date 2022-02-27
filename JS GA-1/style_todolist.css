@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body, html{
+    height: 100%;
+    font-weight: 400;
+}
+.Main-container{
+    width: 100%;
+    margin: 0 auto;
+}
+.container-login{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;    
+    padding: 15px;
+}
+.wrap-login{
+    height: 300px;
+    width: 600px;
+    background: white;
+    border-radius: 10px;    
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+h4{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    margin: 5px 10px 5px 10px;
+}
+.form-control{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(243, 243, 243);
+    line-height: 1.5;
+    border: 2px solid rgb(233, 232, 232);
+    border-radius: 3px;
+    background: white;
+    height: 50px;
+    padding: 0 10px 0 10px;    
+    vertical-align: middle;
+    margin: 15px 20px 15px 10px;
+    width: 400px;
+}
+.btn {
+    padding: 15px 30px;
+    background-color: rgb(2, 2, 233);
+    border: 1px solid #ddd;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500px;
+    border-radius: 4px;
+}  
+@media (max-width: 400px) {
+    .form-control {
+      margin: 10px 0;
+    }    
+}
+.btn-success{
+    padding: 10px;
+    background-color: rgb(10, 104, 10);
+    border: 1px solid #ddd;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500px;
+    border-radius: 4px;
+    margin: 5px 20px 5px 20px;
+}
+.btn-danger{
+    padding: 10px;
+    background-color: red;
+    border: 1px solid #ddd;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500px;
+    border-radius: 4px;
+    margin: 5px 20px 5px 10px;
+}
+
+.list-group-item{
+    color: black;
+    width: 400px;
+    font-size: 20px; 
+    margin: 0 0 3px 30px;
+    list-style-type: none;
+}
+
